@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondModalComponent implements OnInit {
 
+  stateParams:any;
   constructor() { }
 
   ngOnInit(): void {
